@@ -8,7 +8,7 @@
 
 # 启动后端项目
 
-node index.js
+node index.js / npm run devserver
 
 # 整个架构的文件结构(可以是)
 
