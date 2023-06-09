@@ -50,10 +50,10 @@ app.use((err, req, res, next) => {
 })
 
 // 监听端口号
-// const port = 3000
-// app.listen(port, () => {
-//   console.log(console.log(`Example app listening at http://localhost:${port}`))
-// })
+const port = 3000
+app.listen(port, () => {
+  console.log(console.log(`Example app listening at http://localhost:${port}`))
+})
 
 // 将app添加到 exports 模块
 module.exports = app;

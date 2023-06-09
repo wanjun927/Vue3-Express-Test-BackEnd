@@ -15,15 +15,15 @@ const bookSchema = mongoose.Schema({
 		type: Array,
 		required: true
 	},
+	author:{
+		type: String,
+		required: true
+	},
 	genreName: {
 		type: Array,
 	},
 	description:{
 		type: String
-	},
-	author:{
-		type: String,
-		required: true
 	},
 	image_url:{
 		type: String
